@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="minecraft.jpg">
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <title>Minecraft server status</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a>Pokemon API web</a></li>
+            <li><a>Minecraft Status API web</a></li>
+            <li><a>Next API web?</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="entrada">
+            <input class="input_join" type="text">
+            <div style="height: 56px; width: 100px; border-radius: 0px 8px 8px 0px; background-color: bisque;" class="clickme">Clickeame</div>
+        </div>
+        <div class="containerData" style="visibility: hidden;">
+            <h1 class="Server-title-error"></h1>
+            <div class="Server nameinfo">
+                <img class="ServerIcon" alt="Icono minecraft">
+                <h1 class="Server-title"></h1>
+            </div>
+            <div class="Server motd">
+                <strong>MOTD</strong>
+                <div class="motd-all"></div>
+            </div>
+            <div class="Server information">
+                <strong>Información</strong>
+                <div class="fondo">
+                    <ul class="information-all"></ul>
+                </div>
+            </div>
+            <div class="Server players">
+                <strong>Jugadores</strong>
+                <div class="players-all"></div>
+            </div>
+            <div class="Server version">
+                <strong>Versión</strong>
+                <div class="version-all"></div>
+            </div>
+        </div>
+        <div>
+            <h2 style="color:white;">Buscados recientemente</h2>
+            <ul class="recents">
+            </ul>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+.Server{
+    display:flex;
+    margin: 12px;
+    padding: 2px;
+    color: #fff;
+}
+.clickme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.motd-all{
+    background-color: #000;
+    padding: 12px;
+}
+.information-data{
+    background-color: #000;
+}
+.information-all{
+    list-style: none;
+}
+.fondo{
+    background-color: #000;
+    min-width: 400px;
+}
+body{
+    background-color: #181818;
+    margin: 0;
+}
+.Server.title{
+    color: #fff;
+    text-shadow: 1px 2px 3px rgb(58, 39, 232);
+
+}
+.Server-title-error{
+    color: #fff;
+    text-shadow: 1px 2px 3px rgb(58, 39, 232);
+}
+
+input[type="text"]{
+    width: 500px;
+    height: 51px;
+    font-size: 25px;
+    border-radius: 8px 0 0 8px;
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.entrada{
+    display: flex;
+    /* flex-direction: column; */
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(13, 117, 117);
+    margin: 0;
+}
+header ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    /* grid-template-columns: 300px 300px 300px; */
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    grid-auto-flow: row;
+}
+
+.recents{
+    color: white;
+    list-style: none;
+}
